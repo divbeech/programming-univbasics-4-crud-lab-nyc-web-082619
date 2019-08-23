@@ -35,5 +35,5 @@ colors_fav[3]
 end
 
 def update_element_from_index(array, index_number, element)
-
+colors_fav[2] = "Black"
 end
