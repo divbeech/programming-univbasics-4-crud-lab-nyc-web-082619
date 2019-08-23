@@ -3,15 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-[blue, pink, yellow, red]
+colors_fav = ["blue", "pink", "yellow", "red"]
 end
 
 def add_element_to_end_of_array(array, element)
-arr<<Green
+colors_fav.push ("Green")
 end
 
 def add_element_to_start_of_array(array, element)
-
+arr.unshift
 end
 
 def remove_element_from_end_of_array(array)
