@@ -11,15 +11,15 @@ colors_fav.push ("Green")
 end
 
 def add_element_to_start_of_array(array, element)
-arr.unshift
+colors_fav.unshift("white")
 end
 
 def remove_element_from_end_of_array(array)
-
+red_fav = colors_fav.pop
 end
 
 def remove_element_from_start_of_array(array)
-
+blue = colors_fav.shift
 end
 
 def retrieve_element_from_index(array, index_number)
