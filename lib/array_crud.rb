@@ -23,7 +23,7 @@ blue = colors_fav.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-colors_fav
+colors_fav.index
 end
 
 def retrieve_first_element_from_array(array)
@@ -31,7 +31,7 @@ colors_fav[0]
 end
 
 def retrieve_last_element_from_array(array)
-
+colors_fav[3]
 end
 
 def update_element_from_index(array, index_number, element)
